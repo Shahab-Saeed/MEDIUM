@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: "Baskervville SC", serif;
+    font-family: "Roboto", system-ui;
+    font-family: "Montserrat", sans-serif; */
+
+}
+body{
+    background-color: rgb(244, 240, 236);
+
+}
+
+.child1{
+    font-size: 35px;
+    font-family: "Roboto", system-ui;
+    font-weight: 500;
+}
+
+.c{
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+}
+.c25{
+    border: 1px solid black;
+    color: white;
+    font-size: 16px;
+    background-color: black;
+    padding: 7px;
+    width: 100px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-around   ;
+    align-items: center;
+    gap: 400px;
+}
+header{
+    margin-top: 15px;
+}
+
+.line1{
+    width: 100%;
+    margin-top: 15px;
+    border-bottom: 1px solid gray;
+}
+
+main{
+ /* height: 200vh;    */
+}
+
+header{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* FOR MAIN SECTION */
+.c1a .c1aa,.c1ab{
+    font-weight: bolder;
+    font-size: 110px;
+     font-family: "Baskervville SC", serif;
+     color: rgb(57, 55, 55);
+}
+
+.c1aa{
+    margin-bottom: -40px;
+}
+
+.c1b{
+    font-size: 20px; 
+    color: rgb(57, 55, 55);   
+}
+
+.c1c{
+    font-size: 20px;
+    border: 1px solid rgb(57, 55, 55); 
+    background-color:rgb(57, 55, 55);
+    color: white;
+    font-weight: 500;
+    padding: 5px;
+    height: 30px;
+    width: 160px; 
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionb .child1{
+    display: flex;
+    justify-content: center;
+  gap: 40px;
+    flex-direction: column;
+    padding-left: 70px;
+}
+
+.sectionb{
+    /* margin-top: 60px; */
+    display: flex;
+    height: 80vh;
+    justify-content: space-between;
+   
+ 
+}
+
+.child2 img{
+
+    height: 610px;
+    width: 400px;
+    object-fit: cover;
+    object-position: center center;
+}
+.line2{
+    width: 100%;
+    margin-top: 15px;
+    border-bottom: 1px solid gray;
+}
+
+footer .child1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+    color: rgb(96, 94, 94);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
